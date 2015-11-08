@@ -9,9 +9,9 @@ header          { background-color: rgba($gray-base,0.8); color: $color-white; p
     .blog-name  { margin: 0; padding: 0; font-weight: 200; }
     .job-title  { padding: 0 0 0 5px; }
 }
-.main-nav       { position: absolute; right: 10px; bottom: 0;
-    @media only screen and (min-width: 768px){
-                  right: 20px;
+.main-nav       { position: absolute; right: 10px; bottom: 0; display: none;
+    @media only screen and (min-width: $screen-sm-min){
+                  right: 20px; display: block;
     }
     .nav-list           { list-style: none; overflow: hidden; margin: 0;
         &-item          { display: block; float: left; margin-left: 10px; font-weight: 300; text-tranform: uppercase;

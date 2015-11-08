@@ -5826,10 +5826,13 @@ section {
   section .section-title {
     color: #ffffff;
     font-weight: 400;
-    text-transform: none; }
+    text-transform: none;
+    margin: 0 0 20px 0; }
     section .section-title .glyphicon {
       margin: 0 5px 0 0;
       display: inline-block; }
+      section .section-title .glyphicon:before {
+        font-size: 25px; }
 
 /*
 * Sean Anteau Style Sheet
@@ -5850,7 +5853,8 @@ body {
   background-size: cover; }
 
 .page {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .page:before {
     content: "";
     display: block;
@@ -5860,6 +5864,30 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.75); }
+
+.footer {
+  background-color: #14A6FA;
+  padding: 20px 0;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .footer {
+      padding: 40px 0; } }
+  .footer .twitter {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden; }
+    .footer .twitter svg {
+      width: 40px;
+      height: 40px;
+      display: block; }
+      .footer .twitter svg path {
+        fill: #ffffff;
+        -webkit-transition: fill 0.25s ease-out;
+        -o-transition: fill 0.25s ease-out;
+        transition: fill 0.25s ease-out; }
+    .footer .twitter:hover svg path {
+      fill: #035a8c; }
 
 /*
 * Sean Anteau Style Sheet
@@ -5883,10 +5911,12 @@ header {
 .main-nav {
   position: absolute;
   right: 10px;
-  bottom: 0; }
+  bottom: 0;
+  display: none; }
   @media only screen and (min-width: 768px) {
     .main-nav {
-      right: 20px; } }
+      right: 20px;
+      display: block; } }
   .main-nav .nav-list {
     list-style: none;
     overflow: hidden;
@@ -5909,7 +5939,8 @@ header {
 * Skills module
 */
 .skills {
-  color: #ffffff; }
+  color: #ffffff;
+  padding: 20px 0 40px 0; }
   @media only screen and (min-width: 1200px) {
     .skills .clearfix {
       clear: none; } }
@@ -5938,37 +5969,39 @@ header {
 * www.seananteau.com
 * Experiences module
 */
-.experiences-item {
-  color: #ffffff;
-  overflow: hidden;
-  padding: 10px;
-  margin: 0 0 20px 0;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px; }
-  @media only screen and (min-width: 768px) {
-    .experiences-item {
-      padding: 20px; } }
-  .experiences-item-title {
-    margin: 0 0 5px;
-    padding: 0; }
-  .experiences-item-link {
-    display: block; }
-  .experiences-item-time {
-    display: block;
-    color: rgba(255, 255, 255, 0.75); }
-  .experiences-item-img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 20px 0 0 0; }
-    .experiences-item-img-wrapper {
-      float: left;
-      width: 25%;
-      max-width: 100px;
-      margin: 0 20px 0 0; }
-  .experiences-item-copy {
-    margin: 20px 0 0 0; }
+.experiences {
+  padding: 20px 0 0 0; }
+  .experiences-item {
+    color: #ffffff;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; }
+    @media only screen and (min-width: 768px) {
+      .experiences-item {
+        padding: 20px; } }
+    .experiences-item-title {
+      margin: 0 0 5px;
+      padding: 0; }
+    .experiences-item-link {
+      display: block; }
+    .experiences-item-time {
+      display: block;
+      color: rgba(255, 255, 255, 0.75); }
+    .experiences-item-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 20px 0 0 0; }
+      .experiences-item-img-wrapper {
+        float: left;
+        width: 25%;
+        max-width: 100px;
+        margin: 0 20px 0 0; }
+    .experiences-item-copy {
+      margin: 20px 0 0 0; }
 
 /*
 * Sean Anteau Style Sheet
@@ -5986,13 +6019,97 @@ header {
     height: auto;
     display: block; }
     .about-me-img-wrapper {
-      width: 200px;
-      height: 200px;
+      width: 50%;
+      max-width: 200px;
+      height: auto;
+      max-height: 200px;
       border-radius: 200px;
       overflow: hidden;
-      float: left;
-      margin: 0 20px 0 0; }
+      margin: 0 auto 20px; }
+      @media only screen and (min-width: 768px) {
+        .about-me-img-wrapper {
+          float: left;
+          margin: 0 20px 0 0; } }
   .about-me-copy {
     overflow: hidden; }
   .about-me-name {
     margin: 0 0 20px 0; }
+
+/*
+* Sean Anteau Style Sheet
+* www.seananteau.com
+* Contact module
+*/
+.contact {
+  padding: 20px 0 40px 0; }
+  @media only screen and (min-width: 991px) {
+    .contact {
+      padding: 20px 0 60px 0; } }
+  .contact-paragraph {
+    color: #ffffff;
+    max-width: 75%; }
+  .contact .ninja-forms-response-msg {
+    color: #ffffff;
+    max-width: 75%; }
+  .contact .hp-wrap,
+  .contact .ninja-forms-required-items {
+    display: none; }
+  .contact .field-wrap.text-wrap,
+  .contact .field-wrap.textarea-wrap {
+    margin: 0 0 10px 0; }
+    .contact .field-wrap.text-wrap label,
+    .contact .field-wrap.textarea-wrap label {
+      display: block;
+      color: #ffffff;
+      font-weight: 300; }
+    .contact .field-wrap.text-wrap input, .contact .field-wrap.text-wrap textarea,
+    .contact .field-wrap.textarea-wrap input,
+    .contact .field-wrap.textarea-wrap textarea {
+      display: block;
+      width: 75%;
+      max-width: 75%;
+      padding: 10px;
+      border-radius: 3px;
+      background-color: rgba(255, 255, 255, 0.75);
+      outline: 0;
+      -webkit-appearance: none;
+      border: 0;
+      -webkit-transition: all 0.25s ease-out;
+      -o-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out; }
+      .contact .field-wrap.text-wrap input::-moz-focus-inner, .contact .field-wrap.text-wrap textarea::-moz-focus-inner,
+      .contact .field-wrap.textarea-wrap input::-moz-focus-inner,
+      .contact .field-wrap.textarea-wrap textarea::-moz-focus-inner {
+        border: 0;
+        padding: 0; }
+      .contact .field-wrap.text-wrap input:focus, .contact .field-wrap.text-wrap input:hover, .contact .field-wrap.text-wrap textarea:focus, .contact .field-wrap.text-wrap textarea:hover,
+      .contact .field-wrap.textarea-wrap input:focus,
+      .contact .field-wrap.textarea-wrap input:hover,
+      .contact .field-wrap.textarea-wrap textarea:focus,
+      .contact .field-wrap.textarea-wrap textarea:hover {
+        border-radius: 3px 0 0 3px;
+        border-right: 5px solid #14A6FA; }
+      .contact .field-wrap.text-wrap input:focus, .contact .field-wrap.text-wrap textarea:focus,
+      .contact .field-wrap.textarea-wrap input:focus,
+      .contact .field-wrap.textarea-wrap textarea:focus {
+        color: #035a8c; }
+    .contact .field-wrap.text-wrap textarea,
+    .contact .field-wrap.textarea-wrap textarea {
+      height: 80px;
+      max-height: 80px; }
+  .contact .field-wrap .btn-submit {
+    width: 50%;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 20px 0 0 0; }
+
+/*
+* Sean Anteau Style Sheet
+* www.seananteau.com
+* Download module
+*/
+.download {
+  padding: 20px 0 60px 0; }
+  .download-item {
+    font-size: 18px; }

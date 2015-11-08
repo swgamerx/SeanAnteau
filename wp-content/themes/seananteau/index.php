@@ -3,7 +3,7 @@
 <section class="skills" id="skills">
     <div class="container">
         <h2 class="section-title"><span class="glyphicon glyphicon-console"></span>Skills</h2>
-        <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="col-xs-12 col-sm-3">
             <h3 class="skills-list-title">Languages</h3>
             <ul class="skills-list">
                 <li class="skills-list-item">HTML5<a class="skills-list-item-link glyphicon glyphicon-link" href="http://www.w3.org/TR/html5/"></a></li>
@@ -17,7 +17,7 @@
                 <li class="skills-list-item">PHP<a class="skills-list-item-link glyphicon glyphicon-link" href="https://secure.php.net/"></a></li>
             </ul>
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="col-xs-12 col-sm-3 col-lg-3">
             <h3 class="skills-list-title">Plateforms</h3>
             <ul class="skills-list">
                 <li class="skills-list-item">Zend Framework<a class="skills-list-item-link glyphicon glyphicon-link" href="http://framework.zend.com/"></a></li>
@@ -27,7 +27,7 @@
                 <li class="skills-list-item">Joomla<a class="skills-list-item-link glyphicon glyphicon-link" href="https://www.joomla.org/"></a></li>
             </ul>
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="col-xs-12 col-sm-3 col-lg-3">
             <h3 class="skills-list-title">APIs</h3>
             <ul class="skills-list">
                 <li class="skills-list-item">Twitter<a class="skills-list-item-link glyphicon glyphicon-link" href="https://dev.twitter.com/overview/documentation"></a></li>
@@ -38,7 +38,7 @@
                 <li class="skills-list-item">Custom</li>
             </ul>
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="col-xs-12 col-sm-3 col-lg-3">
             <h3 class="skills-list-title">Workflow</h3>
             <ul class="skills-list">
                 <li class="skills-list-item">Git (GitHub)<a class="skills-list-item-link glyphicon glyphicon-link" href="https://git-scm.com/"></a></li>
@@ -53,9 +53,9 @@
 </section>
 <!-- End Skills -->
 <!-- Start Experiences -->
-<section class="experiences" id="experiences">
+<section class="experiences" id="experience">
     <div class="container">
-        <h2 class="section-title"><span class="glyphicon glyphicon-picture"></span>Experiences</h2>
+        <h2 class="section-title"><span class="glyphicon glyphicon-picture"></span>Experience</h2>
         <div class="experiences-item">
             <h3 class="experiences-item-title">Griffin Technology</h3>
             <a class="experiences-item-link" href="https://griffintechnology.com" target="_blank">www.GriffinTechnology.com</a>
@@ -70,7 +70,7 @@
             <h3 class="experiences-item-title">Avatar Syndicate</h3>
             <a class="experiences-item-link" href="http://www.avatarsyndicate.com/" target="_blank">www.AvatarSyndicate.com</a>
             <span class="experiences-item-time">July 2012 to November 2012</span>
-            <div class="experiences-item-img-wrapper"></div>
+
             <div class="experiences-item-copy">
                 <p class="experiences-item-copy-paragraph">While at Avatar Syndicate I was responsible with converting website designs provided by a third party design into fully functioning websites.</p>
             </div>
@@ -91,20 +91,31 @@
 <!-- Start About Me -->
 <section class="about-me" id="about-me">
     <div class="container">
-        <h2 class="section-title"><span class="glyphicon glyphicon-picture"></span>About Me</h2>
-        <div class="about-me-img-wrapper"><img class="about-me-img" src="/wp-content/uploads/2015/11/Sean_Anteau.jpg"/></div>
+        <h2 class="section-title"><span class="glyphicon glyphicon-user"></span>About Me</h2>
+        <div class="about-me-img-wrapper"><img class="about-me-img" src="/wp-content/uploads/2015/11/Sean_Anteau2.jpg"/></div>
         <div class="about-me-copy">
             <h3 class="about-me-name">Sean Anteau</h3>
-            <p class="about-me-copy-paragraph">I am a Front End Web Developer that has over seven years of experience working on everything from single page marketing sites to complex web app development for the gaming industry. At the end of 2005 I graduated from Full Sail Real World Education in Orlando Florida with an Associate of Science degree, that was the start of my web career.</p>
+            <p class="about-me-copy-paragraph">Hi, I'am a Front End Web Developer that has over seven years of experience working on everything from single page marketing sites to complex web app development for the gaming industry. At the end of 2005 I graduated from Full Sail Real World Education in Orlando Florida with an Associate of Science degree, that was the start of my web career.</p>
             <p class="about-me-copy-paragraph">When i'm not working I'm learning new languages and plateforms such as Node.js or even languages such as C++. By advancing my education I hope to work on increasingly complex websites and web applications.</p>
             <p class="about-me-copy-paragraph">If i'm not learning something new I'm playing in the field of virtual reality as I collect headsets, trackers, and hardware (I've kind of gotten myself into a serious hardware collection and the instinct is to take it as far as possible). I'm curious to see how websites and VR will play with each other in the future, Metaverse? </p>
             <p class="about-me-copy-paragraph">My other interests include boots with goodyear welts, cooking, solar energy, and cats.</p>
         </div>
     </div>
 </section>
-<section class="contact" id="contact">
+<div class="contact-download">
     <div class="container">
+        <section class="contact col-xs-12 col-sm-6" id="contact">
+            <h2 class="section-title"><span class="glyphicon glyphicon-envelope"></span>Contact</h2>
+            <p class="contact-paragraph">Want to get ahold of me? Send me a message so we can we start talking.</p>
+            <div class="contact-form">
+                <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?>
+            </div>
+        </section>
+        <section class="download col-xs-12 col-sm-6" id="download">
+            <h2 class="section-title"><span class="glyphicon glyphicon-download-alt"></span>Downloads</h2>
+            <a class="download-item btn btn-primary btn-md" href="/wp-content/uploads/2015/11/Sean_Anteau_Resume.pdf" target="_blank">Resume - PDF</a>
+        </section>
     </div>
-</section>
+</div>
 <!-- End About Me -->
 <?php get_footer(); ?>

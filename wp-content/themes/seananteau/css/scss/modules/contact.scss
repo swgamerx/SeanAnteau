@@ -1,0 +1,28 @@
+/*
+* Sean Anteau Style Sheet
+* www.seananteau.com
+* Contact module
+*/
+.contact { padding: 20px 0 40px 0;
+    @media only screen and (min-width: $screen-sm-max){
+        padding: 20px 0 60px 0;
+    }
+    &-paragraph { color: $color-white; max-width: 75%; }
+    .ninja-forms-response-msg { color: $color-white; max-width: 75%; }
+    .hp-wrap,
+    .ninja-forms-required-items { display: none; }
+    .field-wrap.text-wrap,
+    .field-wrap.textarea-wrap { margin: 0 0 10px 0;
+        label { display: block; color: $color-white; font-weight: 300; }
+        input,textarea { display: block; width: 75%; max-width: 75%; padding: 10px; border-radius: $border-radius-small; background-color: rgba($color-white, 0.75); outline: 0; -webkit-appearance:none; border: 0; @include transition(all $transition-default-speed $transition-default-timing);
+            &::-moz-focus-inner { border: 0;padding: 0; }
+            &:focus,
+            &:hover { border-radius: $border-radius-small 0 0 $border-radius-small; border-right: 5px solid $color-jeep-blue; }
+            &:focus { color: darken($color-jeep-blue, 25%); }
+        }
+        textarea{ height: 80px; max-height: 80px; }
+    }
+    .field-wrap{
+        .btn-submit { width: 50%; display: block; text-transform: uppercase;padding: 10px 0; margin: 20px 0 0 0; }
+    }
+}

@@ -28,10 +28,11 @@
             <span class="job-title">Front End Web Developer</span>
             <nav class="main-nav">
                 <ul class="nav-list">
-                    <li class="nav-list-item"><a class="nav-list-item-anchor" href=""><span class="glyphicon glyphicon-console"></span>Skills</a></li>
-                    <li class="nav-list-item"><a class="nav-list-item-anchor" href=""><span class="glyphicon glyphicon-picture"></span>Experience</a></li>
-                    <li class="nav-list-item"><a class="nav-list-item-anchor" href=""><span class="glyphicon glyphicon-user"></span>About Me</a></li>
-                    <li class="nav-list-item"><a class="nav-list-item-anchor" href=""><span class="glyphicon glyphicon-download-alt"></span>Downloads</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#skills"><span class="glyphicon glyphicon-console"></span>Skills</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#experience"><span class="glyphicon glyphicon-picture"></span>Experience</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#about-me"><span class="glyphicon glyphicon-user"></span>About Me</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#contact"><span class="glyphicon glyphicon-envelope"></span>Contact</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#download"><span class="glyphicon glyphicon-download-alt"></span>Downloads</a></li>
                 </ul>
             </nav>
         </div>

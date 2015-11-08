@@ -22,7 +22,9 @@ html {
 }
 
 section { position: relative; z-index: 2;
-    .section-title { color: $color-white; font-weight: 400; text-transform: none;
-        .glyphicon { margin: 0 5px 0 0; display: inline-block; }
+    .section-title { color: $color-white; font-weight: 400; text-transform: none; margin: 0 0 20px 0;
+        .glyphicon { margin: 0 5px 0 0; display: inline-block;
+            &:before { font-size: 25px; }
+        }
     }
 }
