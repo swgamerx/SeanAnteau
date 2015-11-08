@@ -3,3 +3,10 @@
 * www.seananteau.com
 * Main style sheet
 */
+@import '_bootstrap.scss';
+@import 'layout.scss';
+@import 'global.scss';
+@import 'modules/header.scss';
+@import 'modules/skills.scss';
+@import 'modules/experiences.scss';
+@import 'modules/about.scss';

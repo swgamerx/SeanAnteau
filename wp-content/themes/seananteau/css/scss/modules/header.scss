@@ -1,0 +1,22 @@
+/*
+* Sean Anteau Style Sheet
+* www.seananteau.com
+* Header module
+*/
+
+header          { background-color: rgba($gray-base,0.8); color: $color-white; padding: 10px 0; border-bottom: 4px solid $color-jeep-blue;
+    .container  { position: relative; }
+    .blog-name  { margin: 0; padding: 0; font-weight: 200; }
+    .job-title  { padding: 0 0 0 5px; }
+}
+.main-nav       { position: absolute; right: 10px; bottom: 0;
+    @media only screen and (min-width: 768px){
+                  right: 20px;
+    }
+    .nav-list           { list-style: none; overflow: hidden; margin: 0;
+        &-item          { display: block; float: left; margin-left: 10px; font-weight: 300; text-tranform: uppercase;
+            &-anchor    { color: $color-white; }
+            .glyphicon  { margin-right: 5px; display: inline-block; }
+        }
+    }
+}

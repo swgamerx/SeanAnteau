@@ -1,0 +1,28 @@
+/*
+* Sean Anteau Style Sheet
+* www.seananteau.com
+* Layout
+*/
+
+html {
+    margin: 0 !important;
+    body {
+        margin: 0 !important;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 1300px; // 13 because I felt like it, it's my site.
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    @media only screen and (min-width: 768px){
+        padding: 0 20px;
+    }
+}
+
+section { position: relative; z-index: 2;
+    .section-title { color: $color-white; font-weight: 400; text-transform: none;
+        .glyphicon { margin: 0 5px 0 0; display: inline-block; }
+    }
+}

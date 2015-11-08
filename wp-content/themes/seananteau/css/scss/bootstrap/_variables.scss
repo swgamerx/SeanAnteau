@@ -15,11 +15,17 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$color-white:           #ffffff !default;
+$color-sean-blue:       #148ACC !default;
+$color-jeep-blue:       #14A6FA !default;
+
+$brand-primary:         $color-jeep-blue !default; // #337ab7
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
+
+
 
 
 //== Scaffolding
@@ -80,7 +86,7 @@ $headings-color:          inherit !default;
 
 // [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
 // [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/") !default;
+$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "fonts/bootstrap/") !default;
 
 //** File name for all font files.
 $icon-font-name:          "glyphicons-halflings-regular" !default;
@@ -108,7 +114,7 @@ $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Ch
 $line-height-small:         1.5 !default;
 
 $border-radius-base:        4px !default;
-$border-radius-large:       6px !default;
+$border-radius-large:       10px !default;
 $border-radius-small:       3px !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
@@ -870,3 +876,10 @@ $page-header-border-color:    $gray-lighter !default;
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
+
+//== Transitions
+//
+//##
+
+$transition-default-speed: 0.25s;
+$transition-default-timing: ease-out;

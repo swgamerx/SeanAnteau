@@ -1,0 +1,20 @@
+/*
+* Sean Anteau Style Sheet
+* www.seananteau.com
+* Global
+*/
+
+html,
+body {
+    font-size: 16px;
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga", "kern";
+}
+body { background-image: url('/wp-content/themes/SeanAnteau/images/background.png'); background-size: cover; }
+
+.page { position: relative;
+    &:before{ content: ""; display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba($gray-base,0.75); }
+}

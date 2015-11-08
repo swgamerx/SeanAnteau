@@ -4,5 +4,6 @@
 * Template Footer
 **/
 ?>
+</div>
 </body>
 </html>
