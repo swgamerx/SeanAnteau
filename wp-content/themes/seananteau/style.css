@@ -5898,13 +5898,16 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
   color: #ffffff;
   padding: 10px 0;
-  border-bottom: 4px solid #14A6FA; }
+  border-bottom: 5px solid #14A6FA; }
   header .container {
     position: relative; }
   header .blog-name {
     margin: 0;
     padding: 0;
-    font-weight: 200; }
+    font-weight: 300; }
+    @media only screen and (min-width: 768px) {
+      header .blog-name {
+        font-size: 45px; } }
   header .job-title {
     padding: 0 0 0 5px; }
 

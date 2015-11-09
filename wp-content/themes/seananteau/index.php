@@ -62,17 +62,16 @@
             <span class="experiences-item-time">November 2012 to Current</span>
             <div class="experiences-item-img-wrapper"><img class="experiences-item-img" src="/wp-content/uploads/2015/11/logo-griffin-technology.png"/></div>
             <div class="experiences-item-copy">
-                <p class="experiences-item-copy-paragraph">At Griffin Technology I work on both the ecommerce and marketing sections of the company website as well as developing event specific sites. I've written various components to to connect to both custom APIs and third party APIs for marketing campaigns.</p>
-                <p class="experiences-item-copy-paragraph">Worked with a team of designers and developers to produce multiple full ecommerce theme redesigns which had to be responsive between mobile devices up to desktop screens as well as accounting for high pixel density displays.</p>
+                <p class="experiences-item-copy-paragraph">At Griffin Technology, I complete tasks both on my own and in a team environment. My responsibilities include: developing ecommerce, marketing, and event-specific sites; writing various components to connect to both custom and third party APIs for marketing campaigns; and working with designers and developers to produce multiple full ecommerce-theme redesigns, which are responsive on mobile devices as well as desktop screens and account for high pixel density displays.</p>
             </div>
         </div>
         <div class="experiences-item">
             <h3 class="experiences-item-title">Avatar Syndicate</h3>
             <a class="experiences-item-link" href="http://www.avatarsyndicate.com/" target="_blank">www.AvatarSyndicate.com</a>
             <span class="experiences-item-time">July 2012 to November 2012</span>
-
+            <div class="experiences-item-img-wrapper"><img class="experiences-item-img" src="/wp-content/uploads/2015/11/avatar-logo1.jpg"/></div>
             <div class="experiences-item-copy">
-                <p class="experiences-item-copy-paragraph">While at Avatar Syndicate I was responsible with converting website designs provided by a third party design into fully functioning websites.</p>
+                <p class="experiences-item-copy-paragraph">While at Avatar Syndicate, I converted website designs provided by a third party into fully functioning websites.</p>
             </div>
         </div>
         <div class="experiences-item">
@@ -81,8 +80,7 @@
             <span class="experiences-item-time">November 2009 to March 2012</span>
             <div class="experiences-item-img-wrapper"><img class="experiences-item-img" src="/wp-content/uploads/2015/11/beyond_gaming.jpg"/></div>
             <div class="experiences-item-copy">
-                <p class="experiences-item-copy-paragraph">Beyond Gaming was a website focused on allowing gamers to challenge each other for money in games for PC, Xbox 360, and Playstation 3. In 2014 Beyond Gaming turned it's website off and closed their doors.</p>
-                <p class="experiences-item-copy-paragraph">At Beyond Gaming I was responsible with working with both our developers and designers to convert designs into functioning interfaces to display Beyond Gaming's gaming interface. </p>
+                <p class="experiences-item-copy-paragraph">Beyond Gaming's mission was to facillitate monetary challenges between PC, Xbox 360, and Playstation 3 gamers. At Beyond Gaming, I collaborated with team members to convert designs into functioning interfaces. Beyond Gaming turned its website off and closed its doors in 2014. </p>
             </div>
         </div>
     </div>
@@ -95,9 +93,9 @@
         <div class="about-me-img-wrapper"><img class="about-me-img" src="/wp-content/uploads/2015/11/Sean_Anteau2.jpg"/></div>
         <div class="about-me-copy">
             <h3 class="about-me-name">Sean Anteau</h3>
-            <p class="about-me-copy-paragraph">Hi, I'am a Front End Web Developer that has over seven years of experience working on everything from single page marketing sites to complex web app development for the gaming industry. At the end of 2005 I graduated from Full Sail Real World Education in Orlando Florida with an Associate of Science degree, that was the start of my web career.</p>
-            <p class="about-me-copy-paragraph">When i'm not working I'm learning new languages and plateforms such as Node.js or even languages such as C++. By advancing my education I hope to work on increasingly complex websites and web applications.</p>
-            <p class="about-me-copy-paragraph">If i'm not learning something new I'm playing in the field of virtual reality as I collect headsets, trackers, and hardware (I've kind of gotten myself into a serious hardware collection and the instinct is to take it as far as possible). I'm curious to see how websites and VR will play with each other in the future, Metaverse? </p>
+            <p class="about-me-copy-paragraph">Hi! I'm a Front End Web Developer with over seven years of experience working on everything from single page marketing sites to complex web app development for the gaming industry. At the end of 2005, I graduated from Full Sail Real in Orlando, Florida with an Associate of Science degree and embarked on my web career.</p>
+            <p class="about-me-copy-paragraph">When not working, I'm learning new languages and platforms such as Node.js and C++. By advancing my education, I hope to work on increasingly complex websites and web applications.</p>
+            <p class="about-me-copy-paragraph">I'm passionate about the expanding field of virtual reality and collect headsets, trackers, and various hardware. I've become a serious collector with the instinct to acquire whatever I can get my hands on. I'm curious to see how websites and VR will co-mingle in the future...Metaverse? </p>
             <p class="about-me-copy-paragraph">My other interests include boots with goodyear welts, cooking, solar energy, and cats.</p>
         </div>
     </div>

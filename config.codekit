@@ -11488,6 +11488,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/11\/avatar-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5022,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/11\/avatar-logo.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/11\/avatar-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/11\/avatar-logo1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4635,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/11\/avatar-logo1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/11\/avatar-logo1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/11\/beyond_gaming-150x150.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
